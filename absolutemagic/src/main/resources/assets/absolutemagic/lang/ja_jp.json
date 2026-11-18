@@ -1,0 +1,14 @@
+{
+  "spell.absolutemagic.fixed_damage": "フィックスト・ストライク",
+  "spell.absolutemagic.fixed_damage.guide": "一定時間、武器・ツールの攻撃と魔法ダメージが命中するたびに、固定値の確定ダメージを追加で与える。追加分は他の強化(エンチャント・遺物・スキルツリー・魔力)の影響を受けず、防具・耐性も無視する。",
+  "spell.absolutemagic.percent_damage": "パーセント・ストライク",
+  "spell.absolutemagic.percent_damage.guide": "一定時間、武器・ツールの攻撃と魔法ダメージが命中するたびに、敵のHPに対する割合の確定ダメージを追加で与える。追加分は他の強化の影響を受けず、防具・耐性も無視する。",
+  "effect.absolutemagic.fixed_damage": "フィックスト・ストライク",
+  "effect.absolutemagic.percent_damage": "パーセント・ストライク",
+  "ui.absolutemagic.fixed_amount": "追加固定ダメージ: %s",
+  "ui.absolutemagic.percent_amount.max": "追加ダメージ: 敵の最大HPの%s%%",
+  "ui.absolutemagic.percent_amount.current": "追加ダメージ: 敵の現在HPの%s%%",
+  "ui.absolutemagic.transcend_duration": "持続時間: %s秒",
+  "death.attack.transcend": "%1$sは超越の力に貫かれた",
+  "death.attack.transcend.player": "%1$sは%2$sの超越の力に貫かれた"
+}

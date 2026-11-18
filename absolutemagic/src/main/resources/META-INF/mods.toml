@@ -1,0 +1,32 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "absolutemagic"
+version = "0.2.0"
+displayName = "Absolute Magic"
+description = '''Adds the "Fixed Strike" and "Percent Strike" buff spells for Iron's Spells 'n Spellbooks.
+While a buff is active, every tool hit / spell hit also deals a flat amount (Fixed) or a percentage of the target's HP (Percent) as true damage
+that ignores armor, resistances and other damage buffs.'''
+
+[[dependencies.absolutemagic]]
+modId = "forge"
+mandatory = true
+versionRange = "[47.4.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.absolutemagic]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,1.21)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.absolutemagic]]
+modId = "irons_spellbooks"
+mandatory = true
+versionRange = "[0,)"
+ordering = "AFTER"
+side = "BOTH"
